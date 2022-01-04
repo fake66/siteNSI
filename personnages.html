@@ -1,0 +1,170 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>site nsi:OVERWATCH/personnages</title>
+	<link rel="stylesheet" href="styles/style.css">
+
+
+</head>
+<nav class="crumbs">
+    <ol>
+	    <li class="crumb"><a href="index.html">Accueil</a></li>
+        <li class="crumb">Les personnages</li>
+    </ol>
+</nav>
+<body>
+	<script type="text/javascript" src="scripts/script.js"></script>
+	<h1>LES PERSONNAGES</h1>
+	<p><strong>Le tableau si desous comporte les different personnage<br>
+	avec des boutton permetant de les mettre en evidence par raport a leurs roles </strong> </p>
+	
+	
+	    
+			<button onclick="resetColor()">TOUT</button>
+			<button onclick="tankClick('blue')">TANK</button>
+			<button onclick="dpsClick('red')">DPS</button>
+			<button onclick="supportClick('green')">SUPPORT</button>
+	<br>
+	<br>
+	<table>
+		<tr>
+			<td> <a href=https://playoverwatch.com/fr-fr/heroes/ana/ style="color:#FFFFFF" id="support1">  ANA </a>  </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/mercy/ style="color:#FFFFFF" id="support2">ANGE </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/ashe/ style="color:#FFFFFF" id="dps1">ASHE </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/baptiste/ style="color:#FFFFFF" id="support3"> BAPTISTE </a> </td>
+		</tr>
+		<tr>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/bastion/ style="color:#FFFFFF" id="dps2">BASTION </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/wrecking-ball/ style="color:#FFFFFF" id="tank1">BOULDOZER </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/brigitte/ style="color:#FFFFFF" id="support4">BRIGITTE </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/cassidy/ style="color:#FFFFFF"id="dps3">CASSIDY </a> </td>
+		</tr>
+		<tr>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/junkrat/ style="color:#FFFFFF" id="dps4">CHACAL </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/roadhog/ style="color:#FFFFFF" id="tank2">CHOPPER </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/dva/ style="color:#FFFFFF" id="tank3">D.VA </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/doomfist/ style="color:#FFFFFF" id="dps5">DOOMFIST </a> </td>
+		</tr>
+		<tr>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/echo/ style="color:#FFFFFF" id="dps6">ECHO </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/widowmaker/ style="color:#FFFFFF" id="dps7">FATALE </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/reaper/ style="color:#FFFFFF" id="dps8">FAUCHEUR </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/genji/ style="color:#FFFFFF" id="dps9">GENJI </a> </td>
+		</tr>
+		<tr>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/hanzo/ style="color:#FFFFFF" id="dps10">HANZO </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/lucio/ style="color:#FFFFFF" id="support5">LUCIO </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/mei/ style="color:#FFFFFF" id="dps11">MEI </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/moira/ style="color:#FFFFFF" id="support6">MOIRA </a> </td>
+		</tr>
+		<tr>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/orisa/ style="color:#FFFFFF" id="tank4">ORISA </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/pharah/ style="color:#FFFFFF" id="dps12">PHARAH </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/reinhardt/ style="color:#FFFFFF" id="tank5">REINHARDT </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/sigma/ style="color:#FFFFFF" id="tank6">SIGMA </a> </td>
+		</tr>
+		<tr>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/soldier-76/ style="color:#FFFFFF" id="dps13">SOLDAT:76 </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/sombra/ style="color:#FFFFFF" id="dps14">SOMBRA </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/symmetra/ style="color:#FFFFFF" id="dps15">SYMMETRA </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/torbjorn/ style="color:#FFFFFF" id="dps16">TORBJÖRN </a> </td> 
+		</tr>
+		<tr>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/tracer/ style="color:#FFFFFF" id="dps17">TRACER </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/winston/ style="color:#FFFFFF" id="tank7">WINSTON </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/zarya/ style="color:#FFFFFF" id="tank8">ZARYA </a> </td>
+			<td>  <a href=https://playoverwatch.com/fr-fr/heroes/zenyatta/ style="color:#FFFFFF" id="support7">ZENYATTA </a> </td>
+		</tr>
+
+		
+	</table>
+
+<!-- <script>
+	function tankClick() {
+		this.resetColor()
+		document.getElementById("tank1").style.color = "red"
+		document.getElementById("tank2").style.color = "red"
+		document.getElementById("tank3").style.color = "red"
+		document.getElementById("tank4").style.color = "red"
+		document.getElementById("tank5").style.color = "red"
+		document.getElementById("tank6").style.color = "red"
+		document.getElementById("tank7").style.color = "red"
+		document.getElementById("tank8").style.color = "red"
+		
+	}
+	
+	function resetColor() {
+		document.getElementById("tank1").style.color = "white"
+		document.getElementById("tank2").style.color = "white"
+		document.getElementById("tank3").style.color = "white"
+		document.getElementById("tank4").style.color = "white"
+		document.getElementById("tank5").style.color = "white"
+		document.getElementById("tank6").style.color = "white"
+		document.getElementById("tank7").style.color = "white"
+		document.getElementById("tank8").style.color = "white"
+		document.getElementById("dps1").style.color = "white"
+		document.getElementById("dps2").style.color = "white"
+		document.getElementById("dps3").style.color = "white"
+		document.getElementById("dps4").style.color = "white"
+		document.getElementById("dps5").style.color = "white"
+		document.getElementById("dps6").style.color = "white"
+		document.getElementById("dps7").style.color = "white"
+		document.getElementById("dps8").style.color = "white"
+		document.getElementById("dps9").style.color = "white"
+		document.getElementById("dps10").style.color = "white"
+		document.getElementById("dps11").style.color = "white"
+		document.getElementById("dps12").style.color = "white"
+		document.getElementById("dps13").style.color = "white"
+		document.getElementById("dps14").style.color = "white"
+		document.getElementById("dps15").style.color = "white"
+		document.getElementById("dps16").style.color = "white"
+		document.getElementById("dps17").style.color = "white"
+		document.getElementById("support1").style.color = "white"
+		document.getElementById("support2").style.color = "white"
+		document.getElementById("support3").style.color = "white"
+		document.getElementById("support4").style.color = "white"
+		document.getElementById("support5").style.color = "white"
+		document.getElementById("support6").style.color = "white"
+		document.getElementById("support7").style.color = "white"
+	}
+	
+	function dpsClick() {
+		this.resetColor()
+		document.getElementById("dps1").style.color = "red"
+		document.getElementById("dps2").style.color = "red"
+		document.getElementById("dps3").style.color = "red"
+		document.getElementById("dps4").style.color = "red"
+		document.getElementById("dps5").style.color = "red"
+		document.getElementById("dps6").style.color = "red"
+		document.getElementById("dps7").style.color = "red"
+		document.getElementById("dps8").style.color = "red"
+		document.getElementById("dps9").style.color = "red"
+		document.getElementById("dps10").style.color = "red"
+		document.getElementById("dps11").style.color = "red"
+		document.getElementById("dps12").style.color = "red"
+		document.getElementById("dps13").style.color = "red"
+		document.getElementById("dps14").style.color = "red"
+		document.getElementById("dps15").style.color = "red"
+		document.getElementById("dps16").style.color = "red"
+		document.getElementById("dps17").style.color = "red"
+	}
+	
+	function supportClick(){
+		this.resetColor()
+		document.getElementById("support1").style.color = "red"
+		document.getElementById("support2").style.color = "red"
+		document.getElementById("support3").style.color = "red"
+		document.getElementById("support4").style.color = "red"
+		document.getElementById("support5").style.color = "red"
+		document.getElementById("support6").style.color = "red"
+		document.getElementById("support7").style.color = "red"
+	}
+</script> -->
+
+
+</body>
+
+</html>
